@@ -1,11 +1,44 @@
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Install GIT and create your git user name and email using the commands below:
+```
+git config --global user.email "you@example.com"
 
+git config --global user.name "Your Name"
+```
+## Project Details
+
+All changes can be made only in `development` branch
 
 ## Installing
 
-A step by step series of examples that tell you how to get a development env running
+**Step 1**
 
-Say what the step will be
+On your local machine enter the directory where you will store "new-project"
+
+**Step 2**
+
+Run command below to download the repository to your local drive
+
+```
+git clone https://github.com/ZombieRebel/new-project.git
+```
+
+**Step 3**
+
+To switch to developer branch run 
+
+```
+git checkout development
+```
+
+**Step 4**
+
+To make sure that you are in the correct branch you can use
+```
+git branch
+```
+
+
+
 
